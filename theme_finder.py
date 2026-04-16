@@ -3,7 +3,7 @@ import pandas as pd
 from top2vec import Top2Vec
 
 filepath = os.path.abspath(os.path.dirname("theme_finder.ipynb"))
-data_file = "PSI2025Evals.csv"
+data_file = "PSI2025EvalsScrubbed.csv"
 comment_file = os.path.join(filepath, data_file)
 
 df = pd.read_csv(comment_file, header=1, skiprows=[2])

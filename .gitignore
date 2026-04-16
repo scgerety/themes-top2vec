@@ -209,3 +209,6 @@ __marimo__/
 # Testing Documents and Data
 *.csv
 *.xlsx
+*.docx
+*meeting_saved*.txt
+*.srt

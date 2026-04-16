@@ -1,6 +1,5 @@
 import os
 import pandas as pd
-import numpy as np
 from top2vec import Top2Vec
 
 filepath = os.path.abspath(os.path.dirname("theme_finder.ipynb"))
